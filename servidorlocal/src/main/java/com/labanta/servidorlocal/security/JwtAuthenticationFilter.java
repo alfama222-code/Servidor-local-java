@@ -18,6 +18,12 @@ import java.util.ArrayList;
 @Component
 public class JwtAuthenticationFilter  extends OncePerRequestFilter {
 
+    private JwtService jwtService;
+
+    public JwtAuthenticationFilter (JwtService jwtService) {
+        this.jwtService = jwtService;
+    }
+
     @Override
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain) throws ServletException, IOException {
         System.out.println(">>> JWT FILTER FOI EXECUTADO <<<");
@@ -33,7 +39,7 @@ public class JwtAuthenticationFilter  extends OncePerRequestFilter {
         String token = authHeader.substring(7);
 
         try {
-            String username = JwtService.extrairUsername(token);
+            String username = jwtService.extrairUsername(token);
 
             System.out.println("USERNAME DO TOKEN: " + username);
 

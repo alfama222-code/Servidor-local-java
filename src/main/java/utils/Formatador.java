@@ -1,5 +1,4 @@
 package utils;
-
 import modal.Pessoa;
 import modal.Servico;
 import modal.Vendedor;

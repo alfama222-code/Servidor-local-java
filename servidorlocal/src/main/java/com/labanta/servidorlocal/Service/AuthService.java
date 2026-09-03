@@ -45,7 +45,7 @@ public class AuthService {
         utilizador.setEmail(dados.getEmail());
 
 
-        emailService.enviarEmailBoasVindas(utilizador.getEmail(),utilizador.getUsername());
+        //emailService.enviarEmailBoasVindas(utilizador.getEmail(),utilizador.getUsername());
         return utilizadorRepository.save(utilizador);
     }
 

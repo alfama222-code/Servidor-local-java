@@ -6,6 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+<<<<<<< HEAD
+        <module name="servicolocal" />
+      </profile>
+    </annotationProcessing>
+  </component>
+=======
         <module name="servidorlocal" />
       </profile>
     </annotationProcessing>
@@ -15,4 +21,5 @@
       <module name="servidorlocal" options="-parameters" />
     </option>
   </component>
+>>>>>>> 0efe2e5c84c50db9b61c0e13287ccba7c4c89099
 </project>

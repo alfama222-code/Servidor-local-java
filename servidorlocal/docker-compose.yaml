@@ -1,14 +1,13 @@
+version: "3.8"
 
 services:
-  servidor-java-final:
-      build: .
-      container_name: servidor-java-final
-      ports:
-        - "8080:8080"
-      env_file:
-        - .env
-      volumes:
-        - ./uploads/imagens:/app/uploads/imagens
-
-
-
+  marketplace-api:
+    build: .
+    container_name: marketplace-api-local
+    ports:
+      - "8080:8080"
+    # Lê os segredos do .env e passa para dentro do container
+    env_file:
+      - .env
+    volumes:
+      - ./uploads/imagens:/app/uploads/imagens

@@ -5,19 +5,16 @@ COPY pom.xml .
 COPY src ./src
 RUN mvn clean package -DskipTests
 
+
 FROM eclipse-temurin:17-jre-alpine
+
 WORKDIR /app
 
 COPY --from=build /app/target/*.jar app.jar
 
-RUN mkdir -p uploads/imagens
+RUN mkdir -p upload/images
 
 EXPOSE 8080
 
-ENTRYPOINT ["java","-jar","app.jar"]
-
-
-
-
-
+ENTRYPOINT ["java","-jar","/app/app.jar"]
 

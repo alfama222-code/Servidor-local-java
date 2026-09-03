@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e1d201a-789a-4fb0-aec4-97aae9600dde" name="Changes" comment="change aplication.properties" />
+    <list default="true" id="7e1d201a-789a-4fb0-aec4-97aae9600dde" name="Changes" comment="change aplication.properties">
+      <change beforePath="$PROJECT_DIR$/servidorlocal/src/main/java/com/labanta/servidorlocal/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/servidorlocal/src/main/java/com/labanta/servidorlocal/security/SecurityConfig.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

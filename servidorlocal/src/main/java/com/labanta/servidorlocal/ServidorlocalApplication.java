@@ -9,11 +9,11 @@ import org.springframework.web.client.RestTemplate;
 public class ServidorlocalApplication {
 
 	@Bean
-	public  RestTemplate resttemplate() {
+	public  RestTemplate restTemplate() {
 		return new RestTemplate();
 	}
 
-	public static void main(String[] args) {
+	public static void main (String[] args) {
 		SpringApplication.run(ServidorlocalApplication.class, args);
 	}
 

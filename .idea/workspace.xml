@@ -4,7 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e1d201a-789a-4fb0-aec4-97aae9600dde" name="Changes" comment="change aplication.properties" />
+    <list default="true" id="7e1d201a-789a-4fb0-aec4-97aae9600dde" name="Changes" comment="change aplication.properties">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servidorlocal/src/main/java/com/labanta/servidorlocal/ServidorlocalApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/servidorlocal/src/main/java/com/labanta/servidorlocal/ServidorlocalApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servidorlocal/src/main/java/com/labanta/servidorlocal/security/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/servidorlocal/src/main/java/com/labanta/servidorlocal/security/JwtAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servidorlocal/target/classes/com/labanta/servidorlocal/DTO/ExchangeRateResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/servidorlocal/target/classes/com/labanta/servidorlocal/DTO/ExchangeRateResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servidorlocal/target/classes/com/labanta/servidorlocal/DTO/GeoLocationResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/servidorlocal/target/classes/com/labanta/servidorlocal/DTO/GeoLocationResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servidorlocal/target/classes/com/labanta/servidorlocal/DTO/LoginRequestDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/servidorlocal/target/classes/com/labanta/servidorlocal/DTO/LoginRequestDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servidorlocal/target/classes/com/labanta/servidorlocal/DTO/RegistroRequestDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/servidorlocal/target/classes/com/labanta/servidorlocal/DTO/RegistroRequestDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servidorlocal/target/classes/com/labanta/servidorlocal/DTO/ServicoResponseDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/servidorlocal/target/classes/com/labanta/servidorlocal/DTO/ServicoResponseDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servidorlocal/target/classes/com/labanta/servidorlocal/Model/ServicoModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/servidorlocal/target/classes/com/labanta/servidorlocal/Model/ServicoModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servidorlocal/target/classes/com/labanta/servidorlocal/Model/Utilizador.class" beforeDir="false" afterPath="$PROJECT_DIR$/servidorlocal/target/classes/com/labanta/servidorlocal/Model/Utilizador.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servidorlocal/target/classes/com/labanta/servidorlocal/Service/AuthService.class" beforeDir="false" afterPath="$PROJECT_DIR$/servidorlocal/target/classes/com/labanta/servidorlocal/Service/AuthService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servidorlocal/target/classes/com/labanta/servidorlocal/Service/EmailService.class" beforeDir="false" afterPath="$PROJECT_DIR$/servidorlocal/target/classes/com/labanta/servidorlocal/Service/EmailService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servidorlocal/target/classes/com/labanta/servidorlocal/Service/ExchangeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/servidorlocal/target/classes/com/labanta/servidorlocal/Service/ExchangeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servidorlocal/target/classes/com/labanta/servidorlocal/Service/FileStorageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/servidorlocal/target/classes/com/labanta/servidorlocal/Service/FileStorageService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servidorlocal/target/classes/com/labanta/servidorlocal/Service/GeoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/servidorlocal/target/classes/com/labanta/servidorlocal/Service/GeoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servidorlocal/target/classes/com/labanta/servidorlocal/Service/ServicoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/servidorlocal/target/classes/com/labanta/servidorlocal/Service/ServicoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servidorlocal/target/classes/com/labanta/servidorlocal/ServidorlocalApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/servidorlocal/target/classes/com/labanta/servidorlocal/config/SwaggerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/servidorlocal/target/classes/com/labanta/servidorlocal/config/SwaggerConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servidorlocal/target/classes/com/labanta/servidorlocal/config/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/servidorlocal/target/classes/com/labanta/servidorlocal/config/WebConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servidorlocal/target/classes/com/labanta/servidorlocal/controllers/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/servidorlocal/target/classes/com/labanta/servidorlocal/controllers/AuthController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servidorlocal/target/classes/com/labanta/servidorlocal/controllers/ServicoControllers.class" beforeDir="false" afterPath="$PROJECT_DIR$/servidorlocal/target/classes/com/labanta/servidorlocal/controllers/ServicoControllers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servidorlocal/target/classes/com/labanta/servidorlocal/exception/GlobalExeptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/servidorlocal/target/classes/com/labanta/servidorlocal/exception/GlobalExeptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servidorlocal/target/classes/com/labanta/servidorlocal/exception/ServicoNaoEncontradoExeption.class" beforeDir="false" afterPath="$PROJECT_DIR$/servidorlocal/target/classes/com/labanta/servidorlocal/exception/ServicoNaoEncontradoExeption.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servidorlocal/target/classes/com/labanta/servidorlocal/exception/UsernameEmUsoException.class" beforeDir="false" afterPath="$PROJECT_DIR$/servidorlocal/target/classes/com/labanta/servidorlocal/exception/UsernameEmUsoException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servidorlocal/target/classes/com/labanta/servidorlocal/exception/UtilizadorExistenteException.class" beforeDir="false" afterPath="$PROJECT_DIR$/servidorlocal/target/classes/com/labanta/servidorlocal/exception/UtilizadorExistenteException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servidorlocal/target/classes/com/labanta/servidorlocal/repository/ServicoRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/servidorlocal/target/classes/com/labanta/servidorlocal/repository/ServicoRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servidorlocal/target/classes/com/labanta/servidorlocal/repository/UtilizadorRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/servidorlocal/target/classes/com/labanta/servidorlocal/repository/UtilizadorRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servidorlocal/target/classes/com/labanta/servidorlocal/security/CustomAuthenticationEntyPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/servidorlocal/target/classes/com/labanta/servidorlocal/security/CustomAuthenticationEntyPoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servidorlocal/target/classes/com/labanta/servidorlocal/security/JwtAuthenticationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/servidorlocal/target/classes/com/labanta/servidorlocal/security/JwtAuthenticationFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servidorlocal/target/classes/com/labanta/servidorlocal/security/JwtService.class" beforeDir="false" afterPath="$PROJECT_DIR$/servidorlocal/target/classes/com/labanta/servidorlocal/security/JwtService.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,9 +112,9 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "settings.qodana"
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.build"
   }
 }]]></component>
   <component name="Push.Settings">
